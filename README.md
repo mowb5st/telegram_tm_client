@@ -1,5 +1,7 @@
 # telegram_tm_client
 
+TM client that send into telegram you Balance, Items on sale and Sold items that waiting for trade. 
+
 ### Installation
 
 Setup requirements into your virtual invironment with:
