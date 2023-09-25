@@ -104,7 +104,7 @@ class TmClient:
                 f'Balance: {balance["money"]} '
                 f'{balance["currency"]}; \nItems on sale: '
                 f'{items_on_sale}; \n'
-                f'Items sold and waiting for trade: {items_on_sale}; \n'
+                f'Items sold and waiting for trade: {items_sold}; \n'
                 f'Last update: '
                 f'{datetime.now().strftime("%H:%M:%S | %d-%m-%y")}'
             )
@@ -117,3 +117,5 @@ class TmClient:
 if __name__ == '__main__':
     client = TmClient()
     client.run()
+else:
+    TmClient().run()
